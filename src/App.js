@@ -1,12 +1,11 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import AddUserForm from './AddUserForm';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <h1>Hello World</h1>
-      </header>
+    <div>
+      <h1 style={{ textAlign: 'center' }}>Sales Insights Dashboard</h1>
+      <AddUserForm />
     </div>
   );
 }
